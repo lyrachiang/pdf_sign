@@ -749,7 +749,6 @@ header {
   flex-direction: column; }
   .sign_box .sign_card_box {
     max-height: calc(100% - 80px);
-    min-height: 300px;
     margin-bottom: 20px; }
     .sign_box .sign_card_box > div {
       max-height: 100%;
@@ -798,6 +797,8 @@ header {
       display: none; }
   .sign_box.no_sign {
     justify-content: center; }
+    .sign_box.no_sign .sign_card_box {
+      display: none; }
     .sign_box.no_sign .sign_add_box .btn_add_file {
       margin-bottom: 16px; }
       .sign_box.no_sign .sign_add_box .btn_add_file > span {
